@@ -13,8 +13,8 @@ namespace OCP_Demo
         {
             List<IApplicantModel> applicants = new List<IApplicantModel> {
              new PersonModel { FirstName = "Moazzam", LastName = "Hossain" },
-             new PersonModel { FirstName = "Md Somrat", LastName = "Akbor" },
-             new PersonModel { FirstName = "Md Raihan", LastName = "Bhuian" },
+             new ManagerModel { FirstName = "Md Somrat", LastName = "Akbor" },
+             new ExecutiveModel { FirstName = "Md Raihan", LastName = "Bhuian" },
              new PersonModel { FirstName = "Md Delwar", LastName = "Bhuian" }
             };
 
@@ -25,7 +25,7 @@ namespace OCP_Demo
             }
             foreach(var employee in employees)
             {
-                Console.WriteLine($"FirstName :{employee.FirstName}, LastName :{employee.LastName}, EmailAddress :{employee.EmailAddress} {Environment.NewLine}");
+                Console.WriteLine($"FirstName :{employee.FirstName}, LastName :{employee.LastName}, EmailAddress :{employee.EmailAddress}, IsManager :{employee.IsManager}, isExecutive :{employee.IsExecutive}");
             }
             Console.ReadLine();
 
