@@ -11,7 +11,7 @@ namespace OCP_Demo
     {
         static void Main(string[] args)
         {
-            List<PersonModel> applicants = new List<PersonModel> {
+            List<IApplicantModel> applicants = new List<IApplicantModel> {
              new PersonModel { FirstName = "Moazzam", LastName = "Hossain" },
              new PersonModel { FirstName = "Md Somrat", LastName = "Akbor" },
              new PersonModel { FirstName = "Md Raihan", LastName = "Bhuian" },
@@ -19,10 +19,9 @@ namespace OCP_Demo
             };
 
             List<EmployeeModel> employees = new List<EmployeeModel>();
-            Accounts accountProcessor = new Accounts();
             foreach (var person in applicants)
             {
-                employees.Add(accountProcessor.Create(person));
+                employees.Add(person.AccountProcessor.Create(person));
             }
             foreach(var employee in employees)
             {
