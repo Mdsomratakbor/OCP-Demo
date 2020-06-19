@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OCPLibrary\OCPLibrary.csproj">
+      <Project>{3CB03E14-BCC7-4B44-9239-6355ED14F7A0}</Project>
+      <Name>OCPLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
