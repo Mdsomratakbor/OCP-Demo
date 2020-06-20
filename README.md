@@ -22,5 +22,6 @@ So in simple words it says that an implementation (of a class or function), once
 <br><br></li><li>But an adapter always provides a method of extension, so we can plug in an extension board of an adapter for more adaptation. 
 <br><br></li><li>So you plug in an extension board and extend an existing electric adapter fitted in wall. </li></ol>
 
+### Disadvantage of not following Open Closed Principle
 
 
