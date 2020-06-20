@@ -11,3 +11,5 @@ So in simple words it says that an implementation (of a class or function), once
 `An electrical adapter is good example of Open closed principle :`
 
 `Are you can seee this image :`
+
+<img alt="" class=""  src="https://www.c-sharpcorner.com/UploadFile/pranayamr/open-close-principle/Images/img1.jpg">
