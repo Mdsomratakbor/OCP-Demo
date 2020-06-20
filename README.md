@@ -24,4 +24,4 @@ So in simple words it says that an implementation (of a class or function), once
 
 ### Disadvantage of not following Open Closed Principle
 
-
+<ol> <li>Since a class or function always allows the addition of new logic, whenever new logic is added it is always necessary to test for full functionality. That requires the addition of a new test case for the added functionality and might also require the modification of an existing test case that fails because of added functionality.<br><br> </li><li>It also breaks the Single Responsibility Principle since a class&nbsp;or function might end up doing multiple tasks.<br><br> </li><li>Class or function maintenance becomes difficult since a class or function can become thousands of lines of code that is difficult to understand. </li></ol>
