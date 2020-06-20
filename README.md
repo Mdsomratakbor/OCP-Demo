@@ -16,7 +16,7 @@ So in simple words it says that an implementation (of a class or function), once
 <img alt="" class=""  src="https://www.c-sharpcorner.com/UploadFile/pranayamr/open-close-principle/Images/img3.jpg">
 <img alt="" class=""  src="https://www.c-sharpcorner.com/UploadFile/pranayamr/open-close-principle/Images/img1.jpg">
 
-## Now brif this image :
+## Now brief this image :
 
 <ol> <li>An adapter in the wall is always closed for modification, in other words we cannot change it once it is fitted or extended if we want more. 
 <br><br></li><li>But an adapter always provides a method of extension, so we can plug in an extension board of an adapter for more adaptation. 
